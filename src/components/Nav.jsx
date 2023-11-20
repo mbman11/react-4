@@ -1,9 +1,15 @@
 function Nav (){
+  // function home(){
+  //   document.querySelector('#about').style="display: block";
+  //   document.querySelector('#proj-container').style="display: block";
+  //   document.querySelector('#contact').style="display: block";
+  //   document.querySelector('#resume').style="display: block";
+  // }
   function about(){
     document.querySelector('#about').style="display: block";
-    document.querySelector('#proj-container').style="display: block";
-    document.querySelector('#contact').style="display: block";
-    document.querySelector('#resume').style="display: block";
+    document.querySelector('#proj-container').style="display: hide";
+    document.querySelector('#contact').style="display: hide";
+    document.querySelector('#resume').style="display: hide";
   }
   function projects(){
     document.querySelector('#about').style="display: none";
@@ -15,21 +21,22 @@ function Nav (){
     document.querySelector('#about').style="display: none";
     document.querySelector('#proj-container').style="display: none";
     document.querySelector('#resume').style="display: none";
-    document.querySelector('#contact').style="display: block";
+    document.querySelector('#contact').style="display: flex";
   }
   function resume(){
     document.querySelector('#about').style="display: none";
     document.querySelector('#proj-container').style="display: none";
     document.querySelector('#contact').style="display: none";
-    document.querySelector('#resume').style="display: block";
+    document.querySelector('#resume').style="display: flex";
   }
 
   return(
     <div className="nav-sec">
-      <li><button onClick={about}>About</button></li>
-      <li><button onClick={projects}>Projects</button></li>
-      <li><button onClick={resume}>Resume</button></li>
-      <li><button onClick={contact}>Contact</button></li>
+          <li><a onClick={about}>LOGO</a></li>
+      {/* <li><a onClick={about}>About</a></li> */}
+      <li><a onClick={projects}>Projects</a></li>
+      <li><a onClick={resume}>Resume</a></li>
+      <li><a onClick={contact}>Contact</a></li>
     </div>
   )
 }

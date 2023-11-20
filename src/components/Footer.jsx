@@ -1,7 +1,8 @@
 function Footer (){
   return(
     <footer>
-      <li>jkhsdafkjash</li>
+      <li><a>Github</a></li>
+      <li><a>Linkedin</a></li>
     </footer>
   )
 }

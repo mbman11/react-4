@@ -4,50 +4,108 @@
   padding: 2rem;
   text-align: center;
 } */
-
+.hide{
+  display: none;
+}
 
 #about {
   display: flex;
+  justify-content: center;
+  padding-left: 20px;
   flex-direction: column;
-  background-color: yellow;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 500px;
 }
 
 
 .nav-sec {
   display: flex;
   list-style: none;
+  background-color: grey;
+  cursor: pointer;
+  gap: 25px;
+  height: 50px;
+  align-items: center;
 }
 
-#proj-container {
+#proj-container #projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: orange;
-  height: 500px;
+
 }
 
 .card-container {
+  height: 500px;
   display: flex;
-  gap: 50px;
+  align-items: center;
+  gap: 25px;
   background-color: red;
 }
 
 .card {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
   background-color: green;
-  margin-bottom: 50px;
-  width: 50vw;
+  border: solid 0.5px rgba(0, 0, 0, 0.283);
+  width: 25%;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
 #contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: blue;
+  height: 50vh;
+
+}
+
+#contact input {
+  height: 25px;
+  margin: 10px;
+  width: 600px;
 }
 
 #resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 500px;
   background-color: purple;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  list-style: none;
-}
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: grey;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+
+  .edu-div {
+    background-color: rgb(16, 83, 141);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 150px 20px;
+  }
