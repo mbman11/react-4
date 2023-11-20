@@ -8,6 +8,7 @@
 
 #about {
   display: flex;
+  flex-direction: column;
   background-color: yellow;
 }
 
@@ -17,13 +18,36 @@
   list-style: none;
 }
 
-.proj-cont {
+#proj-container {
+  background-color: orange;
+  height: 500px;
+}
+
+.card-container {
   display: flex;
   gap: 50px;
+  background-color: red;
 }
 
 .card {
   background-color: green;
   margin-bottom: 50px;
   width: 50vw;
+}
+
+
+#contact {
+  background-color: blue;
+}
+
+#resume {
+  height: 500px;
+  background-color: purple;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  list-style: none;
 }

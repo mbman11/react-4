@@ -3,7 +3,7 @@ import Projects from "./Projects";
 
 function ProjectsContainer(){
   return(
-    <div>
+    <div id="proj-container">
       <Projects />
     </div>
   )
