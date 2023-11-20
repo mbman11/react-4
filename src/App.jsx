@@ -6,10 +6,19 @@ import ProjectsContainer from './components/projectsContainer'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
+
 // import Home from './components/Home'
 
+
+
+
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [count, setCount] = useState(0);
+
+
+  // setCount(5)
+
 
   return (
     <>
