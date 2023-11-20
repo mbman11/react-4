@@ -6,7 +6,7 @@ function Nav (){
   //   document.querySelector('#resume').style="display: block";
   // }
   function about(){
-    document.querySelector('#about').style="display: block";
+    document.querySelector('#about').style="display: flex";
     document.querySelector('#proj-container').style="display: hide";
     document.querySelector('#contact').style="display: hide";
     document.querySelector('#resume').style="display: hide";
