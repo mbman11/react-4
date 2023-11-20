@@ -8,7 +8,7 @@ function Nav (){
     document.querySelector('#projects').style="display: block";
   }
   return(
-    <div>
+    <div className="nav-sec">
       <li><button onClick={about}>About</button></li>
       <li><button onClick={projects}>Projects</button></li>
       <li><button>Resume</button></li>
