@@ -10,7 +10,8 @@ body {
 .nav-sec {
   display: flex;
   list-style: none;
-  background-color: rgb(211, 204, 204);
+  background-color: rgb(112, 112, 112);
+  color: white;
   padding-left: 50px;
   cursor: pointer;
   gap: 50px;
