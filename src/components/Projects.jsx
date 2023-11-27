@@ -10,12 +10,12 @@ const data = [
     description: 'Look up real estate laws with keywords!',
   },
   {
-    name: "test",
-    description: 'app',
+    name: "Movie Maestro",
+    description: 'Find Personalized Movie Recommendations Easily',
   }
   ,{
-    name: "test",
-    description: 'app',
+    name: "Coming Soon",
+    description: 'Under development',
   }
 ]
 
@@ -24,6 +24,7 @@ const data = [
 function Projects() {
   return (
     <div className="card-container">
+
     {
       data.map((item)=> <Card name={item.name} description={item.description}/>)
     }
