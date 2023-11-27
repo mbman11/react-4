@@ -7,7 +7,7 @@ function Nav (){
   // }
   function about(){
     document.querySelector('#about').style="display: flex";
-    document.querySelector('#proj-container').style="display: hide";
+    document.querySelector('#proj-container').style="display: block";
     document.querySelector('#contact').style="display: hide";
     document.querySelector('#resume').style="display: none";
   }
