@@ -2,11 +2,12 @@
 function Contact(){
   return(
     <div id="contact">
-    <h3>Contact Me</h3>
-      <input placeholder="Name"></input>
-      <input placeholder="Name"></input>
-      <input placeholder="Name"></input>
-      <input placeholder="Name"></input>
+    <p>Contact me with any questions or comments</p>
+    <p>Email: m.behrmann11@gmail.com</p>
+    <p>Phone: (000) 000-0000</p>
+      {/* <input placeholder="Name"></input>
+      <input placeholder="Email"></input>
+      <input placeholder="Message"></input> */}
     </div>
   )
 }

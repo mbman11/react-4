@@ -3,6 +3,23 @@
   display: none;
 }
 
+.nav-sec {
+  display: flex;
+  list-style: none;
+  background-color: rgb(211, 204, 204);
+  padding-left: 50px;
+  cursor: pointer;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+} @media screen and (max-width: 800px) {
+  .nav-sec{
+    padding: 0;
+    gap: 25px;
+    justify-content: space-evenly;
+  }
+}
+
 #about {
   display: flex;
   justify-content: center;
@@ -31,15 +48,7 @@
 }
 
 
-.nav-sec {
-  display: flex;
-  list-style: none;
-  background-color: rgb(211, 204, 204);
-  cursor: pointer;
-  gap: 25px;
-  height: 50px;
-  align-items: center;
-}
+
 
 
 
@@ -132,15 +141,21 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: rgb(122, 122, 162);
   height: 50vh;
 
 }
 
-#contact input {
-  height: 25px;
-  margin: 10px;
-  max-width: 600px;
+#contact p {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  #contact p{
+   font-size: 20px;
+  }
+  
 }
 
 #resume {
