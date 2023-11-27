@@ -9,7 +9,7 @@ function Nav (){
     document.querySelector('#about').style="display: flex";
     document.querySelector('#proj-container').style="display: hide";
     document.querySelector('#contact').style="display: hide";
-    document.querySelector('#resume').style="display: hide";
+    document.querySelector('#resume').style="display: none";
   }
   function projects(){
     document.querySelector('#about').style="display: none";
