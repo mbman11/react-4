@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import About from './components/About'
-import ProjectsContainer from './components/projectsContainer'
+import ProjectsContainer from './components/ProjectsContainer'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
@@ -13,8 +12,6 @@ import Footer from './components/Footer'
 
 
 function App() {
-
-  const [count, setCount] = useState(0);
 
 
   // setCount(5)
